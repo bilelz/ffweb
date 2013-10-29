@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width">
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/main.css">
+        
+        <link rel="stylesheet" href="css/font-awesome.min.css">
+        <link rel="stylesheet" href="css/animate.css">
+        
+        <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+        
+        <style>
+        body{
+        	text-align: center;
+        	font-family: 'Amatic SC', arial;
+        }
+        	header .title {
+        		font-family: 'Amatic SC', arial;
+        		font-size: 5em;
+        	}
+        	
+        	.animated {
+	
+				/* Addresses a small issue in webkit: http://bit.ly/NEdoDq */
+				-webkit-backface-visibility: hidden;
+				
+				-webkit-animation-duration: 1s !important;
+				   -moz-animation-duration: 5s;
+				     -o-animation-duration: 5s;
+				        animation-duration: 5s;
+				-webkit-animation-fill-mode: both;
+				   -moz-animation-fill-mode: both;
+				     -o-animation-fill-mode: both;
+				        animation-fill-mode: both;
+			}
+			
+			#icon{
+				//-webkit-animation: fadeOutDownBig infinite 3s ;
+				position: relative;
+				display: inline-block;
+				font-size: 0.8em;
+				-webkit-animation: color 5s infinite linear;
+				transition: .3s;
+			}
+			
+			#icon span{
+				font-size: 0em;
+			}
+			
+		
+		@-webkit-keyframes color {
+			0% , 100%	{ color: orange;  }
+			25% 	{ color: red; }	
+			50% 	{ color: blue; }
+			75% 	{ color: green; }		
+		}
+        </style>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+
+
+        <header>
+        	<center>
+        		<div class="title">
+        			
+        			<p></p>
+        			<span class="lightSpeedIn animated"> Fuel f<i class="icon-tint " id="icon"><span>o</span></i>r web</span>
+        		</div>
+	        	
+	        </center>
+        </header>
+        
+        <footer>
+        	Site available asap
+        </footer>
+        
+
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.1.min.js"><\/script>')</script>
+        <script src="js/plugins.js"></script>
+        <script src="js/main.js"></script>
+		
+		<link href='http://fonts.googleapis.com/css?family=Amatic+SC' rel='stylesheet' type='text/css'>
+		
+
+        
+    </body>
+</html>
